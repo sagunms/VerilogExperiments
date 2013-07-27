@@ -1,0 +1,9 @@
+#led
+NET "aeqb" LOC = "F12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;	#led 0
+#switches
+NET "a<0>" LOC = "L13" | IOSTANDARD = LVTTL | PULLUP;
+NET "a<1>" LOC = "L14" | IOSTANDARD = LVTTL | PULLUP;
+NET "b<0>" LOC = "H18" | IOSTANDARD = LVTTL | PULLUP;
+NET "b<1>" LOC = "N17" | IOSTANDARD = LVTTL | PULLUP;
+# End of File
+#

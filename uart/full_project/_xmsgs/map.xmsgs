@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">uart_unit/fifo_tx_unit/inst_Mram_mem8/SPO</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">15</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="4">uart_unit/fifo_tx_unit/inst_Mram_mem11/SPO,
+uart_unit/fifo_tx_unit/inst_Mram_mem21/SPO,
+uart_unit/fifo_tx_unit/inst_Mram_mem51/SPO,
+uart_unit/fifo_tx_unit/inst_Mram_mem31/SPO,
+uart_unit/fifo_tx_unit/inst_Mram_mem41/SPO</arg>
+To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="535" delta="unknown" >The following Virtex BUFG(s) is/are being retargetted to Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+<arg fmt="%s" index="1">BUFGP symbol &quot;clk_BUFGP&quot; (output signal=clk_BUFGP)</arg>
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="unknown" >Net Timing constraints on signal <arg fmt="%s" index="1">clk</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs in the schematic.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">uart_unit/fifo_rx_unit/inst_Mram_mem71</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">Madd_rec_data1_xor&lt;7&gt;11_f5</arg>.  <arg fmt="%z" index="3">The function generator uart_unit/fifo_rx_unit/inst_Mram_mem71 is unable to be placed in the G position because the output signal doesn&apos;t match other symbols&apos; use of the G signal.  The signal N766 already uses G.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+</messages>

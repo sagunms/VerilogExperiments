@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise
+-intstyle ise -e 3 -l 3 -s 4 -xml kb_test kb_test.ncd -o kb_test.twr
+kb_test.pcf -ucf kb_test.ucf
+
+Design file:              kb_test.ncd
+Physical constraint file: kb_test.pcf
+Device,speed:             xc3s500e,-4 (PRODUCTION 1.23 2006-05-10)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD = 20 ns HIGH 50%;
+
+ 2907 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  10.170ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   10.170|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 2907 paths, 0 nets, and 945 connections
+
+Design statistics:
+   Minimum period:  10.170ns   (Maximum frequency:  98.328MHz)
+
+
+Analysis completed Thu Aug 12 01:07:08 2010
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 128 MB
+
+
+

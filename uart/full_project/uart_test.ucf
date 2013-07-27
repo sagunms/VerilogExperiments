@@ -1,0 +1,53 @@
+#
+# Period constraint for 50MHz operation
+#
+NET "clk" PERIOD = 20.0ns HIGH 50%;
+#
+# soldered 50MHz Clock.
+# 
+NET "clk" LOC = "C9" | IOSTANDARD = LVTTL;
+#NET "clk" LOC = "C9";
+NET "reset" LOC = "V4"| IOSTANDARD = LVTTL | PULLDOWN;
+#
+#========================================================
+# Timing constraint of S3 50-MHz onboard oscillator
+# name of the clock signal is clk
+#========================================================
+#NET "clk" TNM_NET = "clk";
+#TIMESPEC "TS_clk" = PERIOD "clk" 40 ns HIGH 50%;
+#
+#
+#
+# Simple LEDs 
+# Require only 3.5mA. 
+#
+NET "led<0>" LOC = "F12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<1>" LOC = "E12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<2>" LOC = "E11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<3>" LOC = "F11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<4>" LOC = "C11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<5>" LOC = "D11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<6>" LOC = "E9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "led<7>" LOC = "F9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#
+#
+#NET "led<0>" LOC = "F12";
+#NET "led<1>" LOC = "E12";
+#NET "led<2>" LOC = "E11";
+#NET "led<3>" LOC = "F11";
+#NET "led<4>" LOC = "C11";
+#NET "led<5>" LOC = "D11";
+#NET "led<6>" LOC = "E9" ;
+#NET "led<7>" LOC = "F9";
+#
+# Press buttons 
+#   Must have pull DOWN resistors to provide Low when not pressed.
+#
+NET "btn"  LOC = "H13" | IOSTANDARD = LVTTL | PULLDOWN;
+#NET "btn<1>"  LOC = "K17" | IOSTANDARD = LVTTL | PULLDOWN;
+#NET "btn<2>"  LOC = "D18" | IOSTANDARD = LVTTL | PULLDOWN;
+#
+# DCE RS-232 Serial Port
+NET "rx" LOC = "R7"  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = SLOW ; 
+NET "tx" LOC = "M14" | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = SLOW ;
+#

@@ -1,0 +1,5 @@
+verilog work "ps2_tx.v"
+verilog work "ps2_rx.v"
+verilog work "ps2_rxtx.v"
+verilog work "mouse.v"
+verilog work "mouse_led.v"

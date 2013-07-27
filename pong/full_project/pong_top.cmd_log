@@ -1,0 +1,16 @@
+xst -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -ifn pong_top.xst -ofn pong_top.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -dd _ngo -nt timestamp -uc "pong_top.ucf" -p xc3s500e-fg320-5 "pong_top.ngc" pong_top.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -ifn pong_top.xst -ofn pong_top.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -ifn pong_top.xst -ofn pong_top.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -dd _ngo -nt timestamp -uc "pong_top.ucf" -p xc3s500e-fg320-5 "pong_top.ngc" pong_top.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -ifn pong_top.xst -ofn pong_top.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -dd _ngo -nt timestamp -uc "pong_top.ucf" -p xc3s500e-fg320-5 "pong_top.ngc" pong_top.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o pong_top_map.ncd pong_top.ngd pong_top.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -w -intstyle ise -ol std -t 1 pong_top_map.ncd pong_top.ncd pong_top.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pong_top pong_top.ncd -o pong_top.twr pong_top.pcf -ucf pong_top.ucf
+xst -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -ifn pong_top.xst -ofn pong_top.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -dd _ngo -nt timestamp -uc "pong_top.ucf" -p xc3s500e-fg320-5 "pong_top.ngc" pong_top.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o pong_top_map.ncd pong_top.ngd pong_top.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -w -intstyle ise -ol std -t 1 pong_top_map.ncd pong_top.ncd pong_top.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pong_top pong_top.ncd -o pong_top.twr pong_top.pcf -ucf pong_top.ucf
+bitgen -ise "C:/Xilinx/SAGUN/Verilog/pong/pong.ise" -intstyle ise -f pong_top.ut pong_top.ncd

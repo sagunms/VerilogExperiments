@@ -1,0 +1,41 @@
+xst -ise "C:/xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -ifn uart_test.xst -ofn uart_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "uart_test.ucf" -p xc3s500e-fg320-4 "uart_test.ngc" uart_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -e 3 -l 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "C:/Xilinx/SAGUN/Verilog/uart/uart.ise" -intstyle ise -f uart_test.ut uart_test.ncd

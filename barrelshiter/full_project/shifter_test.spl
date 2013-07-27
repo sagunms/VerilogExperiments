@@ -1,0 +1,9 @@
+[Inputs]
+=btn[1:0]=
+=sw[3:0]=
+[Outputs]
+=led[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel shifter_test
+

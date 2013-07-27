@@ -1,0 +1,136 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise
+C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise -intstyle ise -e 3 -l 3
+-s 4 -xml shifter_test shifter_test.ncd -o shifter_test.twr shifter_test.pcf
+-ucf shifter_test.ucf
+
+Design file:              shifter_test.ncd
+Physical constraint file: shifter_test.pcf
+Device,speed:             xc3s500e,-4 (PRODUCTION 1.23 2006-05-10)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |led<0>         |   12.144|
+btn<0>         |led<1>         |   13.175|
+btn<0>         |led<2>         |   12.345|
+btn<0>         |led<3>         |   11.943|
+btn<0>         |led<4>         |   12.398|
+btn<0>         |led<5>         |   13.415|
+btn<0>         |led<6>         |   12.691|
+btn<0>         |led<7>         |   12.705|
+btn<1>         |led<0>         |   12.581|
+btn<1>         |led<1>         |   12.848|
+btn<1>         |led<2>         |   11.951|
+btn<1>         |led<3>         |   11.968|
+btn<1>         |led<4>         |   11.908|
+btn<1>         |led<5>         |   12.988|
+btn<1>         |led<6>         |   13.035|
+btn<1>         |led<7>         |   13.089|
+btn<2>         |led<0>         |   13.528|
+btn<2>         |led<1>         |   13.710|
+btn<2>         |led<2>         |   13.180|
+btn<2>         |led<3>         |   13.287|
+btn<2>         |led<4>         |   13.100|
+btn<2>         |led<5>         |   14.180|
+btn<2>         |led<6>         |   14.033|
+btn<2>         |led<7>         |   14.422|
+sw<0>          |led<0>         |   13.525|
+sw<0>          |led<1>         |   13.222|
+sw<0>          |led<2>         |   12.727|
+sw<0>          |led<3>         |   12.666|
+sw<0>          |led<4>         |   12.380|
+sw<0>          |led<5>         |   13.944|
+sw<0>          |led<6>         |   14.030|
+sw<0>          |led<7>         |   14.419|
+sw<1>          |led<0>         |   13.382|
+sw<1>          |led<1>         |   13.649|
+sw<1>          |led<2>         |   13.100|
+sw<1>          |led<3>         |   13.207|
+sw<1>          |led<4>         |   13.020|
+sw<1>          |led<5>         |   14.100|
+sw<1>          |led<6>         |   13.877|
+sw<1>          |led<7>         |   13.931|
+sw<2>          |led<0>         |   12.119|
+sw<2>          |led<1>         |   12.588|
+sw<2>          |led<2>         |   12.093|
+sw<2>          |led<3>         |   12.137|
+sw<2>          |led<4>         |   11.851|
+sw<2>          |led<5>         |   12.914|
+sw<2>          |led<6>         |   13.000|
+sw<2>          |led<7>         |   13.013|
+sw<3>          |led<0>         |   13.675|
+sw<3>          |led<1>         |   13.942|
+sw<3>          |led<2>         |   13.345|
+sw<3>          |led<3>         |   13.452|
+sw<3>          |led<4>         |   13.368|
+sw<3>          |led<5>         |   14.448|
+sw<3>          |led<6>         |   14.146|
+sw<3>          |led<7>         |   14.200|
+sw<4>          |led<0>         |   12.972|
+sw<4>          |led<1>         |   12.825|
+sw<4>          |led<2>         |   12.330|
+sw<4>          |led<3>         |   12.269|
+sw<4>          |led<4>         |   11.983|
+sw<4>          |led<5>         |   13.391|
+sw<4>          |led<6>         |   13.477|
+sw<4>          |led<7>         |   13.866|
+sw<5>          |led<0>         |   12.658|
+sw<5>          |led<1>         |   12.925|
+sw<5>          |led<2>         |   12.267|
+sw<5>          |led<3>         |   12.374|
+sw<5>          |led<4>         |   12.187|
+sw<5>          |led<5>         |   13.267|
+sw<5>          |led<6>         |   13.153|
+sw<5>          |led<7>         |   13.207|
+sw<6>          |led<0>         |   11.926|
+sw<6>          |led<1>         |   12.395|
+sw<6>          |led<2>         |   11.900|
+sw<6>          |led<3>         |   11.889|
+sw<6>          |led<4>         |   11.603|
+sw<6>          |led<5>         |   12.666|
+sw<6>          |led<6>         |   12.752|
+sw<6>          |led<7>         |   12.820|
+sw<7>          |led<0>         |   12.615|
+sw<7>          |led<1>         |   12.882|
+sw<7>          |led<2>         |   12.285|
+sw<7>          |led<3>         |   12.392|
+sw<7>          |led<4>         |   12.253|
+sw<7>          |led<5>         |   13.333|
+sw<7>          |led<6>         |   13.031|
+sw<7>          |led<7>         |   13.085|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Aug 06 10:07:26 2010
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 126 MB
+
+
+

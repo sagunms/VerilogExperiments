@@ -1,0 +1,7 @@
+MO vga_sync NULL vga_sync.v vlg62/vga__sync.bin 1281545557
+MO pong_graph NULL pong_graph.v vlg11/pong__graph.bin 1281545557
+MO m100_counter NULL m100_counter.v vlg25/m100__counter.bin 1281545557
+MO pong_text NULL pong_text.v vlg60/pong__text.bin 1281545557
+MO font_rom NULL font_rom.v vlg6C/font__rom.bin 1281545557
+MO pong_top NULL pong_top.v vlg26/pong__top.bin 1281545557
+MO timer NULL timer.v vlg09/timer.bin 1281545557

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Par" num="331" delta="unknown" >You are using an evaluation version of Xilinx Software. In <arg fmt="%d" index="1">45</arg> days, this program will not operate. For more information about this product, please refer to the Evaluation Agreement, which was shipped to you along with the Evaluation CDs.
+To purchase an annual license for this software, please contact your local Field Applications Engineer (FAE) or salesperson. If you have any questions, or if we can assist in any way, please send an email to: eval@xilinx.com
+Thank You!
+</msg>
+
+</messages>

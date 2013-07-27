@@ -1,0 +1,168 @@
+Release 8.2i par I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+SAGUNMS::  Sat Jul 31 14:10:38 2010
+
+par -w -intstyle ise -ol std -t 1 eq2_map.ncd eq2.ncd eq2.pcf 
+
+
+Constraints file: eq2.pcf.
+WARNING:Par:331 - You are using an evaluation version of Xilinx Software. In 57 days, this program will not operate. For
+   more information about this product, please refer to the Evaluation Agreement, which was shipped to you along with
+   the Evaluation CDs.
+   To purchase an annual license for this software, please contact your local Field Applications Engineer (FAE) or
+   salesperson. If you have any questions, or if we can assist in any way, please send an email to: eval@xilinx.com
+   Thank You!
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx.
+   "eq2" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. The PAR timing summary will list the performance achieved for each clock. Note: For
+   the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high". For a
+   balance between the fastest runtime and best performance, set the effort level to "med".
+
+Device speed data version:  "PRODUCTION 1.23 2006-05-10".
+
+
+Design Summary Report:
+
+ Number of External IOBs                           5 out of 232     2%
+
+   Number of External Input IOBs                  4
+
+      Number of External Input IBUFs              4
+        Number of LOCed External Input IBUFs      4 out of 4     100%
+
+
+   Number of External Output IOBs                 1
+
+      Number of External Output IOBs              1
+        Number of LOCed External Output IOBs      1 out of 1     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of Slices                    1 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:989691) REAL time: 8 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 8 secs 
+
+Phase 3.2
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 8 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 8 secs 
+
+Phase 5.8
+.
+.
+.
+.
+Phase 5.8 (Checksum:98c433) REAL time: 8 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 8 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 8 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 8 secs 
+
+Writing design to file eq2.ncd
+
+
+Total REAL time to Placer completion: 8 secs 
+Total CPU time to Placer completion: 5 secs 
+
+Starting Router
+
+Phase 1: 5 unrouted;       REAL time: 15 secs 
+
+Phase 2: 5 unrouted;       REAL time: 15 secs 
+
+Phase 3: 0 unrouted;       REAL time: 15 secs 
+
+Phase 4: 0 unrouted; (0)      REAL time: 15 secs 
+
+Phase 5: 0 unrouted; (0)      REAL time: 15 secs 
+
+Phase 6: 0 unrouted; (0)      REAL time: 15 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 15 secs 
+
+
+Total REAL time to Router completion: 15 secs 
+Total CPU time to Router completion: 11 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+
+   The Delay Summary Report
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.210
+   The MAXIMUM PIN DELAY IS:                               2.738
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   1.210
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+           2           2           1           0           0           0
+
+Timing Score: 0
+
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 18 secs 
+Total CPU time to PAR completion: 12 secs 
+
+Peak Memory Usage:  160 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 1
+
+Writing design to file eq2.ncd
+
+
+
+PAR done!

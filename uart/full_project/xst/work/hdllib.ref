@@ -1,0 +1,7 @@
+MO debounce NULL debounce.v vlg1D/debounce.bin 1281064247
+MO uart_test NULL uart_test.v vlg0B/uart__test.bin 1281064247
+MO fifo NULL fifo.v vlg7C/fifo.bin 1281064247
+MO uart NULL uart.v vlg48/uart.bin 1281064247
+MO uart_rx NULL uart_rx.v vlg21/uart__rx.bin 1281064247
+MO uart_tx NULL uart_tx.v vlg2B/uart__tx.bin 1281064247
+MO mod_m_counter NULL mod_m_counter.v vlg1F/mod__m__counter.bin 1281064247

@@ -1,0 +1,23 @@
+xst -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -ifn mouse_led.xst -ofn mouse_led.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -ifn mouse_led.xst -ofn mouse_led.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -dd _ngo -nt timestamp -uc "mouse.ucf" -p xc3s500e-fg320-4 "mouse_led.ngc" mouse_led.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o mouse_led_map.ncd mouse_led.ngd mouse_led.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -w -intstyle ise -ol std -t 1 mouse_led_map.ncd mouse_led.ncd mouse_led.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -e 3 -l 3 -s 4 -xml mouse_led mouse_led.ncd -o mouse_led.twr mouse_led.pcf -ucf mouse.ucf
+xst -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -ifn mouse_led.xst -ofn mouse_led.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -dd _ngo -nt timestamp -uc "mouse.ucf" -p xc3s500e-fg320-4 "mouse_led.ngc" mouse_led.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o mouse_led_map.ncd mouse_led.ngd mouse_led.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -w -intstyle ise -ol std -t 1 mouse_led_map.ncd mouse_led.ncd mouse_led.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -e 3 -l 3 -s 4 -xml mouse_led mouse_led.ncd -o mouse_led.twr mouse_led.pcf -ucf mouse.ucf
+bitgen -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -f mouse_led.ut mouse_led.ncd
+xst -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -ifn mouse_led.xst -ofn mouse_led.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -dd _ngo -nt timestamp -uc "mouse.ucf" -p xc3s500e-fg320-4 "mouse_led.ngc" mouse_led.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o mouse_led_map.ncd mouse_led.ngd mouse_led.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -w -intstyle ise -ol std -t 1 mouse_led_map.ncd mouse_led.ncd mouse_led.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -e 3 -l 3 -s 4 -xml mouse_led mouse_led.ncd -o mouse_led.twr mouse_led.pcf -ucf mouse.ucf
+xst -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -ifn mouse_led.xst -ofn mouse_led.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -dd _ngo -nt timestamp -uc "mouse.ucf" -p xc3s500e-fg320-4 "mouse_led.ngc" mouse_led.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o mouse_led_map.ncd mouse_led.ngd mouse_led.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -w -intstyle ise -ol std -t 1 mouse_led_map.ncd mouse_led.ncd mouse_led.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -e 3 -l 3 -s 4 -xml mouse_led mouse_led.ncd -o mouse_led.twr mouse_led.pcf -ucf mouse.ucf
+bitgen -ise "C:/Xilinx/SAGUN/Verilog/ps2mouse/ps2mouse.ise" -intstyle ise -f mouse_led.ut mouse_led.ncd

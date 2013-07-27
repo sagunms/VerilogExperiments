@@ -1,0 +1,25 @@
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+netgen -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim shifter_test.ngc shifter_test_synthesis.v
+xst -ise "C:/xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+xst -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -ifn shifter_test.xst -ofn shifter_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -dd _ngo -aul -nt timestamp -uc "shifter_test.ucf" -p xc3s500e-fg320-4 "shifter_test.ngc" shifter_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o shifter_test_map.ncd shifter_test.ngd shifter_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -w -intstyle ise -ol std -t 1 shifter_test_map.ncd shifter_test.ncd shifter_test.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -e 3 -l 3 -s 4 -xml shifter_test shifter_test.ncd -o shifter_test.twr shifter_test.pcf -ucf shifter_test.ucf
+bitgen -ise "C:/Xilinx/SAGUN/Verilog/barrelshiter/barrelshiter.ise" -intstyle ise -f shifter_test.ut shifter_test.ncd

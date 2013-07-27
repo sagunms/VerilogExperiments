@@ -1,0 +1,9 @@
+MO ps2_rx NULL ps2_rx.v vlg56/ps2__rx.bin 1281554463
+MO key2ascii NULL key2ascii.v vlg00/key2ascii.bin 1281554463
+MO kb_code NULL kb_code.v vlg03/kb__code.bin 1281554463
+MO kb_test NULL kb_test.v vlg30/kb__test.bin 1281554463
+MO fifo NULL fifo.v vlg7C/fifo.bin 1281554463
+MO uart NULL uart.v vlg48/uart.bin 1281554463
+MO uart_rx NULL uart_rx.v vlg21/uart__rx.bin 1281554463
+MO uart_tx NULL uart_tx.v vlg2B/uart__tx.bin 1281554463
+MO mod_m_counter NULL mod_m_counter.v vlg1F/mod__m__counter.bin 1281554463

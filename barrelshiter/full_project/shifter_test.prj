@@ -1,0 +1,2 @@
+verilog work "barrel_shifter_stage.v"
+verilog work "shifter_test.v"

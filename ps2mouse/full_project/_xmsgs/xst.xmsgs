@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">btnm&lt;2&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">b_reg_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ps2_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">b_reg_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ps2_tx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/y_reg_8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1291" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/btn_reg_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">mouse_unit/ps2_unit/ps2_tx_unit/filter_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mouse_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mouse_unit/ps2_unit/ps2_rx_unit/filter_reg_0&gt; </arg>
+</msg>
+
+</messages>

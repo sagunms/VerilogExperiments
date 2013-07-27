@@ -1,0 +1,14 @@
+xst -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -ifn kb_test.xst -ofn kb_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -ifn kb_test.xst -ofn kb_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -ifn kb_test.xst -ofn kb_test.syr
+xst -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -ifn kb_test.xst -ofn kb_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -dd _ngo -nt timestamp -uc "kb_test.ucf" -p xc3s500e-fg320-4 "kb_test.ngc" kb_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o kb_test_map.ncd kb_test.ngd kb_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -w -intstyle ise -ol std -t 1 kb_test_map.ncd kb_test.ncd kb_test.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -e 3 -l 3 -s 4 -xml kb_test kb_test.ncd -o kb_test.twr kb_test.pcf -ucf kb_test.ucf
+xst -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -ifn kb_test.xst -ofn kb_test.syr
+ngdbuild -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -dd _ngo -nt timestamp -uc "kb_test.ucf" -p xc3s500e-fg320-4 "kb_test.ngc" kb_test.ngd
+map -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o kb_test_map.ncd kb_test.ngd kb_test.pcf
+par -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -w -intstyle ise -ol std -t 1 kb_test_map.ncd kb_test.ncd kb_test.pcf
+trce -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -e 3 -l 3 -s 4 -xml kb_test kb_test.ncd -o kb_test.twr kb_test.pcf -ucf kb_test.ucf
+bitgen -ise "C:/Xilinx/SAGUN/Verilog/keyboard/keyboard.ise" -intstyle ise -f kb_test.ut kb_test.ncd

@@ -1,0 +1,7 @@
+verilog work "font_rom.v"
+verilog work "vga_sync.v"
+verilog work "timer.v"
+verilog work "pong_text.v"
+verilog work "pong_graph.v"
+verilog work "m100_counter.v"
+verilog work "pong_top.v"

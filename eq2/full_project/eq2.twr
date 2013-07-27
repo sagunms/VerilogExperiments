@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise C:/xilinx/SAGUN/Verilog/eq2/eq2.ise -intstyle
+ise -e 3 -l 3 -s 4 -xml eq2 eq2.ncd -o eq2.twr eq2.pcf -ucf eq2.ucf
+
+Design file:              eq2.ncd
+Physical constraint file: eq2.pcf
+Device,speed:             xc3s500e,-4 (PRODUCTION 1.23 2006-05-10)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |aeqb           |   10.614|
+a<1>           |aeqb           |   11.067|
+b<0>           |aeqb           |   11.217|
+b<1>           |aeqb           |   11.226|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jul 31 14:11:05 2010
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 126 MB
+
+
+

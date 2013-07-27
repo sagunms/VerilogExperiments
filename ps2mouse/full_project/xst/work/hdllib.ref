@@ -1,0 +1,5 @@
+MO ps2_rx NULL ps2_rx.v vlg56/ps2__rx.bin 1281605691
+MO ps2_tx NULL ps2_tx.v vlg60/ps2__tx.bin 1281605691
+MO ps2_rxtx NULL ps2_rxtx.v vlg22/ps2__rxtx.bin 1281605691
+MO mouse NULL mouse.v vlg61/mouse.bin 1281605691
+MO mouse_led NULL mouse_led.v vlg1D/mouse__led.bin 1281605691
